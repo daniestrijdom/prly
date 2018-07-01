@@ -2,13 +2,18 @@
   "name": "prly",
   "version": "1.0.0",
   "description": "github group pr accessory",
+  "bin": {
+    "prly": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository": "https://github.com/daniestrijdom/prly.git",
   "dependencies": {
-    "commander": "2.16.0"
+    "commander": "2.16.0",
+    "request-promise": "4.2.2"
   }
 }
